@@ -234,6 +234,7 @@ rgbeLoader.load('sky.hdr', function (texture) {
 // GLTF loader
 const gltfLoader = new GLTFLoader();
 gltfLoader.load(
+  // Igloo by Jarlan Perez [CC-BY] (https://creativecommons.org/licenses/by/3.0/) via Poly Pizza (https://poly.pizza/m/4t1hupO69xj)
   'Igloo.glb',
   async (gltf) => {
     const model = gltf.scene;
